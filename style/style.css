@@ -14,13 +14,26 @@
   --fonte-destaque: 'Bebas Neue', cursive;
   --fonte-andoid: 'Android', cursive;
 
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrão);
+  }
 }
 header{
-  background-image:linear-gradient( var(--cor4), var(--cor3), var(--cor2))
+  background-image:linear-gradient( var(--cor1), var(--cor2), var(--cor3))
 }
 
 header > h1{
+  color: white;
   font-family: var(--fonte-destaque);
+}
+header > p{
+  color: white;
+  font-family: var(--fonte-padrão);
 }
 nav{
   background-color: var(--cor4);
